@@ -31,7 +31,7 @@ I'm always experimenting with different technologies and tools, staying adaptabl
 ![PyGui](https://img.shields.io/badge/PyGui-291e5c?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ### C
-![C](https://img.shields.io/badge/c-%23571515.svg?style=for-the-badge&logo=c&logoColor=white) 
+![C](https://img.shields.io/badge/c-%23571515.svg?style=fFlat&logo=c&logoColor=white) 
 
 
 
