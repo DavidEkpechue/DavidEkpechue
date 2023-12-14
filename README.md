@@ -27,8 +27,8 @@ I'm always experimenting with different technologies and tools, staying adaptabl
 ![Python](https://img.shields.io/badge/python-291e5c?style=for-the-badge&logo=python&logoColor=ffdd54) 
 ![Pygame](https://img.shields.io/badge/pygame-291e5c?style=for-the-badge&logo=python&logoColor=ffdd54) 
 ![CustomTkinter](https://img.shields.io/badge/CustomTkinter-291e5c?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Tkinter](https://img.shields.io/badge/CustomTkinter-291e5c?style=for-the-badge&logo=python&logoColor=ffdd54)
-![PyGui](https://img.shields.io/badge/CustomTkinter-291e5c?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Tkinter](https://img.shields.io/badge/Tkinter-291e5c?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PyGui](https://img.shields.io/badge/PyGuiTkinter-291e5c?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 
 
