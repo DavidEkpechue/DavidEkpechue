@@ -15,7 +15,6 @@ Hopefully, you find something you find useful, are impressed/ inspired by or enj
 A collection of my works that gradually grow in complexity.
 
 It contains the totality of my completed ideas, the ideas I'm currently working on and the ideas have plans to complete.
-
 ## Unfinished-Projects
 A glimpse into my process and ongoing learning journey.
 
