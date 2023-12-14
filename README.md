@@ -35,5 +35,13 @@ I'm always experimenting with different technologies and tools, staying adaptabl
 ![C](https://img.shields.io/badge/RayLib-%23571515.svg?style=for-the-badge&logo=c&logoColor=white) 
 
 
+### Software
 
+![GIT](https://img.shields.io/badge/Git-3894c2?style=for-the-badge&logo=git&logoColor=white) 
+![LINUX](https://img.shields.io/badge/Linux-3894c2?style=for-the-badge&logo=linux&logoColor=black)
+![Adobe After Effects](https://img.shields.io/badge/adobe_after_effects-%233894c2.svg?style=for-the-badge&logo=adobeaftereffects&logoColor=white) 
+![Adobe Photoshop](https://img.shields.io/badge/adobe_photoshop-%233894c2.svg?style=for-the-badge&logo=adobephotoshop&logoColor=white) 
+![Cisco](https://img.shields.io/badge/Cisco-%233894c2?style=for-the-badge&logo=Cisco&logoColor=black)
+![Microsoft Word](https://img.shields.io/badge/microsoft_word-%233894c2.svg?style=for-the-badge&logo=microsoftword&logoColor=white)
+![Microsoft Excel](https://img.shields.io/badge/microsoft_excel-%233894c2.svg?style=for-the-badge&logo=microsoftexcel&logoColor=white) 
 
