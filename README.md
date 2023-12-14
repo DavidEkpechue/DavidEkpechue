@@ -23,4 +23,4 @@ I'm always experimenting with different technologies and tools, staying adaptabl
 
 ## My skills
 
-### ![Python](https://img.shields.io/badge/python-291e5c?style=for-the-badge&logo=python&logoColor=ffdd54) 
+### PYTHON ![Python](https://img.shields.io/badge/python-291e5c?style=for-the-badge&logo=python&logoColor=ffdd54) 
