@@ -21,6 +21,6 @@ A glimpse into my process and ongoing learning journey.
 
 I'm always experimenting with different technologies and tools, staying adaptable and curious but sometimes these processes don't go as planned, this repo is where I put these dead ideas to rest.
 
+## My skills
 
-
-Explore my repositories and join me in this continuous learning adventure!
+### Python ![Python](https://img.shields.io/badge/python-291e5c?style=for-the-badge&logo=python&logoColor=ffdd54) 
