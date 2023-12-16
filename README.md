@@ -11,10 +11,8 @@ Hopefully, you find something you find useful, are impressed/ inspired by or enj
 
 ## My Repositories
 
-### Projects
-A collection of my works that gradually grow in complexity.
-
-It contains the totality of my completed ideas, the ideas I'm currently working on and the ideas have plans to complete.
+### Dino_Game
+An adventure into pygame's basics, Give it a try!
 
 ### Unfinished-Projects
 A glimpse into my process and ongoing learning journey.
