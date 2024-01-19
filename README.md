@@ -32,7 +32,7 @@ I'm always experimenting with different technologies and tools, staying adaptabl
 ![C](https://img.shields.io/badge/c-%23571515.svg?style=for-the-badge&logo=c&logoColor=white) 
 ![C](https://img.shields.io/badge/RayLib-%23571515.svg?style=for-the-badge&logo=c&logoColor=white) 
 
-![Godot Badge](https://img.shields.io/badge/Godot-Engine-478cbf?style=for-the-badge)
+![Godot Badge](https://img.shields.io/badge/Godot-3.4-brightgreen)
 
 ### Software
 
