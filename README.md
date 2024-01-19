@@ -19,6 +19,10 @@ A glimpse into my process and ongoing learning journey.
 
 I'm always experimenting with different technologies and tools, staying adaptable and curious but sometimes these processes don't go as planned, this repo is where I put these dead ideas to rest.
 
+### Universal_Unit_Converter
+A unit converter showing off my app dev skills as well as working with API's
+
+
 ## My skills
 
 ### PYTHON
@@ -33,7 +37,7 @@ I'm always experimenting with different technologies and tools, staying adaptabl
 ![C](https://img.shields.io/badge/RayLib-%23571515.svg?style=for-the-badge&logo=c&logoColor=white) 
 
 ### Game Dev
-![Godoteee Badge](https://img.shields.io/badge/Godot-4.2.1-478cbf?style=for-the-badge&logo=godotengine)
+![Godot Badge](https://img.shields.io/badge/Godot-4.2.1-478cbf?style=for-the-badge&logo=godotengine)
 
 ### Software
 
