@@ -32,8 +32,8 @@ I'm always experimenting with different technologies and tools, staying adaptabl
 ![C](https://img.shields.io/badge/c-%23571515.svg?style=for-the-badge&logo=c&logoColor=white) 
 ![C](https://img.shields.io/badge/RayLib-%23571515.svg?style=for-the-badge&logo=c&logoColor=white) 
 
-# Game Dev
-![Godot Badge](https://img.shields.io/badge/Godot-4.2.1-478cbf?style=for-the-badge&logo=godotengine)
+### Game Dev
+![Godoteee Badge](https://img.shields.io/badge/Godot-4.2.1-478cbf?style=for-the-badge&logo=godotengine)
 
 ### Software
 
