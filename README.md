@@ -36,6 +36,9 @@ A unit converter showing off my app dev skills as well as working with API's
 ![C](https://img.shields.io/badge/c-%23571515.svg?style=for-the-badge&logo=c&logoColor=white) 
 ![C](https://img.shields.io/badge/RayLib-%23571515.svg?style=for-the-badge&logo=c&logoColor=white) 
 
+### Java
+![Java](https://img.shields.io/badge/java-291e5c?style=for-the-badge&logo=python&logoColor=ffdd54) 
+
 ### Game Dev
 ![Godot Badge](https://img.shields.io/badge/Godot-4.2.1-478cbf?style=for-the-badge&logo=godotengine)
 
