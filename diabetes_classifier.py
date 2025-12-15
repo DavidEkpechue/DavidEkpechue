@@ -20,7 +20,8 @@ from sklearn.metrics import (accuracy_score, precision_score, recall_score,
                              roc_curve, classification_report)
 from sklearn.impute import SimpleImputer
 import warnings
-warnings.filterwarnings('ignore')
+from sklearn.exceptions import ConvergenceWarning
+warnings.filterwarnings('ignore', category=ConvergenceWarning)
 
 # Set random seed for reproducibility
 RANDOM_SEED = 42
@@ -126,9 +127,9 @@ print("="*80)
 df_processed = df.copy()
 
 print("\n2.1 Handling Zero Values as Missing Data:")
-# Replace zeros with NaN in medical measurements
+# Replace zeros with NaN in medical measurements (vectorized operation)
+df_processed[zero_cols] = df_processed[zero_cols].replace(0, np.nan)
 for col in zero_cols:
-    df_processed[col] = df_processed[col].replace(0, np.nan)
     missing_count = df_processed[col].isnull().sum()
     print(f"{col}: {missing_count} missing values after replacement")
 
@@ -341,7 +342,32 @@ print("="*80)
 
 # Function to evaluate model
 def evaluate_model(model, X_train, X_test, y_train, y_test, model_name):
-    """Comprehensive model evaluation"""
+    """
+    Comprehensive model evaluation with multiple metrics.
+    
+    Parameters:
+    -----------
+    model : estimator object
+        Trained sklearn classifier with predict and predict_proba methods
+    X_train : array-like
+        Training feature data
+    X_test : array-like
+        Test feature data
+    y_train : array-like
+        Training target labels
+    y_test : array-like
+        Test target labels
+    model_name : str
+        Name of the model for display purposes
+    
+    Returns:
+    --------
+    tuple : (metrics_dict, y_pred, y_proba, confusion_matrix)
+        metrics_dict : Dictionary containing all performance metrics
+        y_pred : Test set predictions
+        y_proba : Test set probability predictions for positive class
+        confusion_matrix : 2x2 confusion matrix as numpy array
+    """
     print(f"\n{model_name} Evaluation:")
     print("-" * 60)
     
