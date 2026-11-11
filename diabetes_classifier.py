@@ -15,9 +15,7 @@ from sklearn.model_selection import train_test_split, cross_val_score, GridSearc
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import (accuracy_score, precision_score, recall_score, 
-                             f1_score, confusion_matrix, roc_auc_score, 
-                             roc_curve, classification_report)
+from sklearn.metrics import (accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, roc_auc_score, roc_curve, classification_report)
 from sklearn.impute import SimpleImputer
 import warnings
 from sklearn.exceptions import ConvergenceWarning
@@ -185,15 +183,6 @@ print("\n" + "="*80)
 print("SECTION 3: MODEL 1 - LOGISTIC REGRESSION")
 print("="*80)
 
-print("\n3.1 Model Selection Rationale:")
-print("""
-Logistic Regression is chosen because:
-- It's interpretable and provides probability estimates
-- Works well for binary classification problems
-- Computationally efficient
-- Provides insight into feature importance through coefficients
-- Good baseline model for comparison
-""")
 
 # Initial model training
 print("\n3.2 Training Initial Logistic Regression Model:")
@@ -258,15 +247,6 @@ print("SECTION 4: MODEL 2 - RANDOM FOREST CLASSIFIER")
 print("="*80)
 
 print("\n4.1 Model Selection Rationale:")
-print("""
-Random Forest is chosen because:
-- Handles non-linear relationships well
-- Less prone to overfitting compared to single decision trees
-- Provides feature importance rankings
-- No need for feature scaling (but we use scaled data for consistency)
-- Robust to outliers
-- Can capture complex interactions between features
-""")
 
 # Initial model training
 print("\n4.2 Training Initial Random Forest Model:")
@@ -393,8 +373,7 @@ def evaluate_model(model, X_train, X_test, y_train, y_test, model_name):
             print(f"{metric}: {value:.4f}")
     
     print("\nClassification Report:")
-    print(classification_report(y_test, y_test_pred, 
-                               target_names=['No Diabetes', 'Diabetes']))
+    print(classification_report(y_test, y_test_pred, target_names=['No Diabetes', 'Diabetes']))
     
     print("\nConfusion Matrix:")
     cm = confusion_matrix(y_test, y_test_pred)
@@ -478,8 +457,7 @@ for idx, metric in enumerate(metrics_to_plot):
     col = idx % 2
     
     values = [lr_metrics[metric], rf_metrics[metric]]
-    bars = axes[row, col].bar(['Logistic Regression', 'Random Forest'], values,
-                              color=['skyblue', 'lightgreen'])
+    bars = axes[row, col].bar(['Logistic Regression', 'Random Forest'], values, color=['skyblue', 'lightgreen'])
     axes[row, col].set_title(metric)
     axes[row, col].set_ylabel('Score')
     axes[row, col].set_ylim([0, 1])
@@ -487,8 +465,7 @@ for idx, metric in enumerate(metrics_to_plot):
     # Add value labels on bars
     for bar in bars:
         height = bar.get_height()
-        axes[row, col].text(bar.get_x() + bar.get_width()/2., height,
-                           f'{height:.4f}', ha='center', va='bottom')
+        axes[row, col].text(bar.get_x() + bar.get_width()/2., height, f'{height:.4f}', ha='center', va='bottom')
 
 plt.tight_layout()
 plt.savefig('metrics_comparison.png', dpi=300, bbox_inches='tight')
@@ -572,7 +549,7 @@ print("""
 print("\n" + "="*80)
 print("ANALYSIS COMPLETE")
 print("="*80)
-print("\nGenerated Files:")
+print("\nGenerated gRAPHS:")
 print("  - data_distributions.png")
 print("  - correlation_heatmap.png")
 print("  - outlier_boxplots.png")

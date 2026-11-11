@@ -1,0 +1,32 @@
+Week,Day,Laundry (Sat only – 2 people),Dishwasher,Hoovering,Wipe Counters,Clean Living Room,Bins
+1,Monday,,David,David,Irene,Paul,
+1,Tuesday,,Shontel,,David,Irene,David
+1,Wednesday,,Irene,Paul,Shontel,David,
+1,Thursday,,Paul,,Irene,Shontel,Paul
+1,Friday,,David,David,Paul,Irene,
+1,Saturday,David & Shontel,Shontel,Paul,David,Shontel,
+1,Sunday,,Irene,Irene,Shontel,Paul,
+
+2,Monday,,Shontel,Shontel,Paul,David,
+2,Tuesday,,Irene,,Shontel,Paul,Irene
+2,Wednesday,,Paul,David,Irene,Shontel,
+2,Thursday,,David,,Paul,Irene,David
+2,Friday,,Shontel,Shontel,Irene,Paul,
+2,Saturday,Irene & Paul,Irene,David,Shontel,Irene,
+2,Sunday,,Paul,Paul,David,Shontel,
+
+3,Monday,,Irene,Irene,David,Shontel,
+3,Tuesday,,Paul,,Irene,David,Paul
+3,Wednesday,,David,Shontel,Paul,Irene,
+3,Thursday,,Shontel,,David,Paul,Shontel
+3,Friday,,Irene,Irene,Shontel,David,
+3,Saturday,Paul & David,Paul,Shontel,Irene,Paul,
+3,Sunday,,David,David,Paul,Irene,
+
+4,Monday,,Paul,Paul,Shontel,Irene,
+4,Tuesday,,David,,Paul,Shontel,David
+4,Wednesday,,Shontel,Irene,David,Paul,
+4,Thursday,,Irene,,Shontel,David,Irene
+4,Friday,,Paul,Paul,David,Shontel,
+4,Saturday,Shontel & Irene,David,Irene,Paul,David,
+4,Sunday,,Shontel,Shontel,Irene,David,
